@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>change</key>
+    <string>Поменять</string>
+    <key>changeLang</key>
+    <string>Ты хочешь поменять язык?</string>
+    <key>dmg_per_time</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@dmg@ %#@time@</string>
+        <key>dmg</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>zero</key>
+            <string>Ты в порядке</string>
+            <key>one</key>
+            <string>Ты получил один удар</string>
+            <key>other</key>
+            <string>Ты получил %d ударов</string>
+        </dict>
+        <key>time</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>zero</key>
+            <string>в данный момент</string>
+            <key>one</key>
+            <string>за одну секунду</string>
+            <key>other</key>
+            <string>за %d секунд</string>
+        </dict>
+    </dict>
+	<key>bananas</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@bananas_count@</string>
+		<key>bananas_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>У Коли %d банана</string>
+			<key>many</key>
+			<string>У Коли %d бананов</string>
+			<key>one</key>
+			<string>У Коли один банан</string>
+			<key>other</key>
+			<string>У Коли %d бананов</string>
+			<key>zero</key>
+			<string>У Коли нет бананов</string>
+		</dict>
+	</dict>
+	<key>chooseLang</key>
+	<string>Выбери свой язык</string>
+	<key>letsgo</key>
+	<string>Поехали</string>
+	<key>welcome</key>
+	<string>Привет!</string>
+</dict>
+</plist>

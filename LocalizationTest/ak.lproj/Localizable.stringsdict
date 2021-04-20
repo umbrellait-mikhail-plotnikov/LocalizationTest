@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>change</key>
+    <string>✍️</string>
+    <key>changeLang</key>
+    <string>🤫👅✍️</string>
+	<key>letsgo</key>
+	<string>🤝</string>
+	<key>chooseLang</key>
+	<string>🤨👅🤐</string>
+	<key>welcome</key>
+	<string>👋</string>
+    <key>dmg_per_time</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@dmg@ %#@time@</string>
+        <key>dmg</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>zero</key>
+            <string>😎</string>
+            <key>one</key>
+            <string>🥴</string>
+            <key>other</key>
+            <string>😵</string>
+        </dict>
+        <key>time</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>zero</key>
+            <string>⏲</string>
+            <key>one</key>
+            <string>🕐</string>
+            <key>other</key>
+            <string>🕝</string>
+        </dict>
+    </dict>
+	<key>bananas</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@bananas_count@</string>
+		<key>bananas_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>🚶🤲</string>
+			<key>one</key>
+			<string>🚶🤲🍌</string>
+			<key>two</key>
+			<string>🚶🤲🍌🍌</string>
+			<key>few</key>
+			<string>🚶🤲🍌🍌</string>
+			<key>many</key>
+			<string>🚶🤲🍌🍌🍌🍌</string>
+			<key>other</key>
+			<string>🚶🤲🍌🍌🍌🍌🍌</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
